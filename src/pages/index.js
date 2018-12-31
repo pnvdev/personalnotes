@@ -20,7 +20,7 @@ const IndexPage = (props) => {
   console.log(subjects);
   return (
     <Layout>
-        <h2 style={{textAlign: 'center', fontFamily: 'courier, monospace'}}>Subjects</h2>
+        <h2 style={{textAlign: 'center', fontFamily: 'courier, monospace'}}>Catálogo</h2>
         <Accordion>
         {subjects.map((arr, i) => (
           <AccordionItem key={arr[0].node.fields.slug.split('/')[1]}>
